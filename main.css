@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+}
+input {
+  margin: 5px 10px;
+
+}
+div {
+  margin: 0 auto;
+}
+article {
+  border: 2px solid seagreen;
+  width: 40%;
+  min-height: 20px;
+  margin: 5px 10px;
+  color: purple;
+  overflow-wrap: break-word;
+}
+article:first-of-type {
+  border: 2px solid purple;
+  width: 40%;
+  min-height: 20px;
+  color: seagreen;
+}
